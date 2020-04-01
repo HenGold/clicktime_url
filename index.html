@@ -1,5 +1,12 @@
 <html>
-<p> 
-    this
-</p>
-</html>
+	<script>
+		var url_string = window.location.href; //window.location.href
+		var url = new URL(url_string);
+		var c = url.searchParams.get("url");
+		console.log(c);
+		document.getElementById("myspan").textContent=c;
+	</script>
+	<span id="myspan">
+
+	</span>
+</hmtl>
