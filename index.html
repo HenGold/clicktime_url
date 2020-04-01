@@ -1,5 +1,10 @@
 <html>
-	<script>
+
+	<span id="myspan">
+
+	</span>
+
+		<script>
 		var url_string = window.location.href; //window.location.href
 		var url = new URL(url_string);
 		var c = url.searchParams.get("url");
@@ -7,7 +12,4 @@
 		setTimeout(function() { document.getElementById("myspan").textContent=c; }, 5000);
 		
 	</script>
-	<span id="myspan">
-
-	</span>
 </hmtl>
