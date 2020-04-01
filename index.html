@@ -9,7 +9,8 @@
 		var url = new URL(url_string);
 		var c = url.searchParams.get("url");
 		console.log(c);
-		setTimeout(function() { document.getElementById("myspan").textContent=c; }, 5000);
+		document.getElementById("myspan").textContent=c;
+		//setTimeout(function() { document.getElementById("myspan").textContent=c; }, 500);
 		
 	</script>
 </hmtl>
